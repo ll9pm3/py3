@@ -19,7 +19,7 @@ async def main():
     urls = list()
     apis =[
         "R7iUjaH1LcQpdEvw8MKp95KQuxtnkZkK","Hyv0BjDvQxKYTqb8eCmDJ70rcFQ3IcGG"]
-    ad="https://viidedss.com/dc/?blockID=387336"
+    ad="https://viidedss.com/dc/?blockID=387551"
     for api in apis:
         for _ in range(randint (3,5)):
             url = f"https://api.webscrapingapi.com/v2?api_key={api}&url={ad}&country=us&render_js=1"
