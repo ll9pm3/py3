@@ -19,10 +19,10 @@ async def main():
     urls = list()
     apis =[
         "zMWEPOwx5msyEuXmjDNeGB2J2QOKDLvv","VeN3Lku77tDT9r9pM8WgdQy7FSJu17wc"]
-    ad="https://viikqoye.com/dc/?blockID=392416"
+    ad="https://viikqoye.com/dc/?blockID=392564"
     for api in apis:
         for _ in range(randint (3,5)):
-            url = f"https://api.webscrapingapi.com/v2?api_key={api}&url={ad}&country=us&render_js=1"
+            url = f"https://api.webscrapingapi.com/v2?api_key={api}&url={ad}&country=ca&render_js=1"
             urls.append(url)
 
     async with aiohttp.ClientSession() as session:
